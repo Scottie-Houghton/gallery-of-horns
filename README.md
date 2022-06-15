@@ -10,7 +10,7 @@ Start time: 5:00pm
 
 Finish time: 6:00pm
 
-Actual time needed to complete: One hour
+Actual time needed to complete: 1 hour
 
 ### Feature #2: Allow users to vote for their favorite beast
 
@@ -28,6 +28,6 @@ Estimate of time needed to complete: 1.5 hours
 
 Start time: 7:30pm
 
-Finish time: _____
+Finish time: 9:00pm
 
-Actual time needed to complete: _____
+Actual time needed to complete: 1.5 hours
