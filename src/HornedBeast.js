@@ -10,22 +10,27 @@ class HornedBeast extends React.Component {
     }
   }
 
-  handleFavorites = () => {
-    this.setState({
-      favorites: this.state.favorites +1
-    })
-  }
+  // handleFavorites = () => {
+  //   this.setState({
+  //     favorites: this.state.favorites +1
+  //   })
+  // }
 
+  handleImgClick = () => {
+    this.props.handleOnShowModal(this.props.imageUrl);
+  }
+  
   render () {
     return (
       <Card style={{ width: '18rem' }}>
-        <p>Click image to favorite this beast!</p>
+        {/* <p>Click image to favorite this beast!</p> */}
         <Card.Img
           variant="top"
-          onClick={this.handleFavorites}
+          // onClick={this.handleFavorites}
           src={this.props.imageUrl}
           alt={this.props.title}
           title={this.props.description}
+          onClick={this.handleImgClick}
         />
         <Card.Body>
           <Card.Title>{this.props.title}</Card.Title>
