@@ -20,17 +20,19 @@ class HornedBeast extends React.Component {
     this.props.handleOnShowModal(this.props.imageUrl);
   }
   
-  render () {
+  render() {
     return (
       <Card style={{ width: '18rem' }}>
         {/* <p>Click image to favorite this beast!</p> */}
         <Card.Img
           variant="top"
           // onClick={this.handleFavorites}
+          style={{cursor: 'pointer'}}
           src={this.props.imageUrl}
           alt={this.props.title}
           title={this.props.description}
-          onClick={this.handleImgClick}
+          onClick={() => {this.props.handleOnShowModal(this.props.beast)}}
+          // onClick={this.handleImgClick}
         />
         <Card.Body>
           <Card.Title>{this.props.title}</Card.Title>

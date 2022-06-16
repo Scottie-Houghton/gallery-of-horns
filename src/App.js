@@ -3,7 +3,7 @@ import Header from './Header';
 import Main from './Main';
 import Footer from './Footer';
 import SelectedBeast from './SelectedBeast';
-import Modal from 'react-bootstrap/Modal'
+// import Modal from 'react-bootstrap/Modal'
 import data from './data.json';
 import './App.css';
 
@@ -12,7 +12,7 @@ class App extends React.Component {
     super(props);
     this.state = {
       showModal: false,
-      selectedBeast: ''
+      selectedBeast: '',
     };
   };
 
@@ -21,10 +21,11 @@ class App extends React.Component {
       showModal: false
     });
   };
+
   handleOnShowModal = (title) => {
     this.setState({
       showModal: true,
-      selectedBeast: title
+      selectedBeast: title,
     });
   };
 
@@ -37,15 +38,19 @@ class App extends React.Component {
           handleOnShowModal={this.handleOnShowModal}
         />
         <Footer/>
-        {/* <SelectedBeast/> */}
-        <Modal
+        <SelectedBeast
+          showModal = {this.state.showModal}
+          hideModal = {this.handleOnHide}
+          selectedBeast = {this.state.selectedBeast}
+        />
+        {/* <Modal
           show={this.state.showModal}
           onHide={this.handleOnHide}
         >
           <Modal.Header closeButton>
             <Modal.Title>{this.state.selectedBeast}</Modal.Title>
           </Modal.Header>
-        </Modal>
+        </Modal> */}
       </>
     );
   }

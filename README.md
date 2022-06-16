@@ -43,4 +43,4 @@ Start time: 4:45pm
 
 Finish time: 8:45pm
 
-Actual time needed to complete: 4 hours (but I didn't finish)
+Actual time needed to complete: 4 hours (but I didn't finish) + 1.5 hour to finish the next day
