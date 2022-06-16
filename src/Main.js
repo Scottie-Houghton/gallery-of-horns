@@ -1,12 +1,11 @@
 import React from 'react';
 import HornedBeast from './HornedBeast';
-import data from './data.json';
 import './Main.css';
 
 class Main extends React.Component {
   render () {
     let beasts = []
-    data.forEach((beast, idx) => {
+    this.props.data.forEach((beast, idx) => {
       beasts.push(
         <HornedBeast
           imageUrl={beast.image_url}
@@ -15,6 +14,7 @@ class Main extends React.Component {
           // keyword={beast.keyword}
           // horns={beast.horns}
           key={idx}
+          handleOnShowModal={this.props.handleOnShowModal}
         />
       )
     })

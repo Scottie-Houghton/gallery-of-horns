@@ -31,3 +31,16 @@ Start time: 7:30pm
 Finish time: 9:00pm
 
 Actual time needed to complete: 1.5 hours
+
+
+## Lab: Class 03
+
+### Feature #1: Display a Modal
+
+Estimate of time needed to complete: 2 hours
+
+Start time: 4:45pm
+
+Finish time: 8:45pm
+
+Actual time needed to complete: 4 hours (but I didn't finish)
