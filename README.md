@@ -44,3 +44,15 @@ Start time: 4:45pm
 Finish time: 8:45pm
 
 Actual time needed to complete: 4 hours (but I didn't finish) + 1.5 hour to finish the next day
+
+## Lab: Class 04
+
+### Feature #1: Filter by Numbers of Horns
+
+Estimate of time needed to complete: 4 hours
+
+Start time: 6:00pm
+
+Finish time: 10:00pm
+
+Actual time needed to complete: 4 hours
