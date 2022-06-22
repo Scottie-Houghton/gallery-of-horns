@@ -3,7 +3,7 @@ import Header from './Header';
 import Main from './Main';
 import Footer from './Footer';
 import SelectedBeast from './SelectedBeast';
-import {Form, Button, ListGroup} from 'react-bootstrap'
+import Form from 'react-bootstrap/Form'
 import data from './data.json';
 import './App.css';
 
